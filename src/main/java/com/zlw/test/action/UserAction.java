@@ -3,7 +3,7 @@
  * @Package com.zlw.test.action
  * @filename UserAction.java
  * @author robin	
- * 2018Äê9ÔÂ13ÈÕ ÏÂÎç11:11:11
+ * 2018å¹´9æœˆ13æ—¥ ä¸‹åˆ11:11:11
  * TODO	
  */
 package com.zlw.test.action;
@@ -21,7 +21,7 @@ import com.zlw.test.service.UserService;
  * @Package com.zlw.test.action
  * @filename UserAction.java
  * @author robin	
- * 2018Äê9ÔÂ13ÈÕ ÏÂÎç11:11:11
+ * 2018å¹´9æœˆ13æ—¥ ä¸‹åˆ11:11:11
  * TODO	
  */
 @Controller
@@ -37,7 +37,7 @@ public class UserAction {
 		if (username != null) {
 			model.addAttribute("username", username);
 		} else {
-			model.addAttribute("username", "Î´ÕÒµ½");
+			model.addAttribute("username", "æœªæ‰¾åˆ°");
 		}
 		return "test";
 	}

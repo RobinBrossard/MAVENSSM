@@ -3,7 +3,7 @@
  * @Package com.zlw.test.entity
  * @filename User.java
  * @author robin	
- * 2018Äê9ÔÂ13ÈÕ ÏÂÎç11:08:16
+ * 2018å¹´9æœˆ13æ—¥ ä¸‹åˆ11:08:16
  * TODO	
  */
 package com.zlw.test.entity;
@@ -13,7 +13,7 @@ package com.zlw.test.entity;
  * @Package com.zlw.test.entity
  * @filename User.java
  * @author robin	
- * 2018Äê9ÔÂ13ÈÕ ÏÂÎç11:08:16
+ * 2018å¹´9æœˆ13æ—¥ ä¸‹åˆ11:08:16
  * TODO	
  */
 public class User {

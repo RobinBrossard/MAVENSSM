@@ -3,7 +3,7 @@
  * @Package com.zlw.test.mapper
  * @filename UserMapper.java
  * @author robin	
- * 2018Äê9ÔÂ13ÈÕ ÏÂÎç11:08:56
+ * 2018å¹´9æœˆ13æ—¥ ä¸‹åˆ11:08:56
  * TODO	
  */
 package com.zlw.test.mapper;
@@ -13,7 +13,7 @@ package com.zlw.test.mapper;
  * @Package com.zlw.test.mapper
  * @filename UserMapper.java
  * @author robin	
- * 2018Äê9ÔÂ13ÈÕ ÏÂÎç11:08:56
+ * 2018å¹´9æœˆ13æ—¥ ä¸‹åˆ11:08:56
  * TODO	
  */
 public interface UserMapper {

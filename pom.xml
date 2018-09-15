@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.robin</groupId>
 	<artifactId>MAVENSSM</artifactId>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MAVENSSM Maven Webapp</name>
 	<url>http://maven.apache.org</url>
@@ -154,11 +154,33 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.6</version>
 		</dependency>
-		<dependency>
+		<!-- 以下为spring4升级前依赖包 -->
+		<!--<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>1.9.13</version>
+		</dependency>-->
+		<!-- 升级spring 4后，应该修改为以下json依赖包 -->
+		<!-- Spring 升级4+ 依赖的JSON包 -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.7.4</version>
 		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.7.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>2.7.4</version>
+		</dependency>
+		<!-- /Spring 升级4+ 依赖的JSON包 -->
+
+
+
 		<!-- 上传组件包 start -->
 		<dependency>
 			<groupId>commons-fileupload</groupId>
